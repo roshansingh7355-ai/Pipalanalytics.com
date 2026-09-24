@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pipal Data Analytics | Business Intelligence & Data Solutions</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#ecfdf5',
+              500: '#10b981',
+              600: '#059669',
+              900: '#064e3b',
+              dark: '#0a0f1d'
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-[#0b0f19] text-slate-200 font-sans antialiased">
+
+  <!-- Navigation -->
+  <header class="fixed top-0 left-0 right-0 z-50 bg-[#0b0f19]/80 backdrop-blur-md border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-emerald-500 to-teal-400 flex items-center justify-center text-white shadow-lg shadow-emerald-500/20">
+          <i class="fa-solid fa-chart-line text-lg"></i>
+        </div>
+        <span class="text-xl font-bold tracking-tight text-white">Pipal <span class="text-emerald-400">Analytics</span></span>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
+        <a href="#services" class="hover:text-emerald-400 transition">Services</a>
+        <a href="#solutions" class="hover:text-emerald-400 transition">Solutions</a>
+        <a href="#tech" class="hover:text-emerald-400 transition">Tech Stack</a>
+        <a href="#contact" class="hover:text-emerald-400 transition">Contact</a>
+      </nav>
+
+      <a href="#contact" class="hidden sm:inline-flex items-center justify-center px-5 py-2.5 rounded-lg bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-semibold text-sm transition shadow-lg shadow-emerald-500/25">
+        Get Started
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="pt-36 pb-20 relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-slate-800/80 border border-slate-700/80 text-emerald-400 text-xs font-semibold uppercase tracking-wider mb-6">
+        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span> Data-Driven Business Decisions
+      </div>
+      <h1 class="text-4xl md:text-6xl font-extrabold text-white tracking-tight leading-tight max-w-4xl mx-auto mb-6">
+        Turn Raw Data into <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400">Actionable Growth</span>
+      </h1>
+      <p class="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto mb-10">
+        Pipal Data Analytics helps businesses clean, analyze, visualize, and scale their data pipelines with automated BI dashboards and predictive modeling.
+      </p>
+
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="#contact" class="w-full sm:w-auto px-8 py-3.5 rounded-lg bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-bold transition shadow-lg shadow-emerald-500/20">
+          Book Free Audit
+        </a>
+        <a href="#services" class="w-full sm:w-auto px-8 py-3.5 rounded-lg border border-slate-700 hover:border-slate-500 text-white font-medium transition bg-slate-900/50">
+          Explore Services
+        </a>
+      </div>
+
+      <!-- KPI Highlights -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto mt-16 pt-10 border-t border-slate-800 text-left">
+        <div>
+          <p class="text-3xl font-extrabold text-white">99.8%</p>
+          <p class="text-sm text-slate-400 mt-1">Data Accuracy</p>
+        </div>
+        <div>
+          <p class="text-3xl font-extrabold text-white">10x</p>
+          <p class="text-sm text-slate-400 mt-1">Reporting Speed</p>
+        </div>
+        <div>
+          <p class="text-3xl font-extrabold text-white">50+</p>
+          <p class="text-sm text-slate-400 mt-1">Custom Dashboards</p>
+        </div>
+        <div>
+          <p class="text-3xl font-extrabold text-white">24/7</p>
+          <p class="text-sm text-slate-400 mt-1">Automation Support</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-24 bg-slate-950 border-t border-slate-900">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Core Analytics Services</h2>
+        <p class="text-slate-400 text-base">Comprehensive analytics solutions customized for retail, finance, manufacturing, and tech businesses.</p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- Service 1 -->
+        <div class="p-8 rounded-2xl bg-[#0f172a] border border-slate-800 hover:border-emerald-500/50 transition group">
+          <div class="w-12 h-12 rounded-xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center text-xl mb-6 group-hover:scale-110 transition">
+            <i class="fa-solid fa-chart-pie"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-3">Power BI & Tableau Dashboards</h3>
+          <p class="text-slate-400 text-sm leading-relaxed mb-4">
+            Interactive, live-updating executive dashboards that replace messy Excel sheets with clear, real-time KPI metrics.
+          </p>
+          <span class="text-xs font-semibold text-emerald-400 flex items-center gap-1">Live Reporting →</span>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="p-8 rounded-2xl bg-[#0f172a] border border-slate-800 hover:border-emerald-500/50 transition group">
+          <div class="w-12 h-12 rounded-xl bg-cyan-500/10 text-cyan-400 flex items-center justify-center text-xl mb-6 group-hover:scale-110 transition">
+            <i class="fa-solid fa-broom"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-3">Data Cleaning & ETL Pipelines</h3>
+          <p class="text-slate-400 text-sm leading-relaxed mb-4">
+            Automate data extraction from multiple sources, clean duplicates, eliminate null errors, and store in structured data warehouses.
+          </p>
+          <span class="text-xs font-semibold text-cyan-400 flex items-center gap-1">Clean Data Architecture →</span>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="p-8 rounded-2xl bg-[#0f172a] border border-slate-800 hover:border-emerald-500/50 transition group">
+          <div class="w-12 h-12 rounded-xl bg-teal-500/10 text-teal-400 flex items-center justify-center text-xl mb-6 group-hover:scale-110 transition">
+            <i class="fa-solid fa-brain"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-3">Predictive & Sales Modeling</h3>
+          <p class="text-slate-400 text-sm leading-relaxed mb-4">
+            Statistical forecasting algorithms to predict monthly demand, churn rate, inventory turnover, and revenue trends.
+          </p>
+          <span class="text-xs font-semibold text-teal-400 flex items-center gap-1">Machine Learning Insights →</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tech Stack -->
+  <section id="tech" class="py-16 border-t border-slate-900 bg-[#0b0f19]">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <p class="text-sm font-semibold uppercase tracking-wider text-slate-400 mb-8">Tools & Technologies We Use</p>
+      <div class="flex flex-wrap justify-center items-center gap-8 md:gap-14 text-slate-400 text-lg font-semibold">
+        <span class="flex items-center gap-2"><i class="fa-brands fa-python text-2xl text-blue-400"></i> Python</span>
+        <span class="flex items-center gap-2"><i class="fa-solid fa-database text-2xl text-emerald-400"></i> SQL / PostgreSQL</span>
+        <span class="flex items-center gap-2"><i class="fa-solid fa-chart-column text-2xl text-yellow-400"></i> Power BI</span>
+        <span class="flex items-center gap-2"><i class="fa-solid fa-table-cells text-2xl text-teal-400"></i> Tableau</span>
+        <span class="flex items-center gap-2"><i class="fa-solid fa-file-excel text-2xl text-green-500"></i> Advanced Excel</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form Section -->
+  <section id="contact" class="py-24 bg-slate-950 border-t border-slate-900">
+    <div class="max-w-3xl mx-auto px-6">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-white mb-3">Discuss Your Data Project</h2>
+        <p class="text-slate-400">Send details about your business requirements to receive a customized proposal.</p>
+      </div>
+
+      <form class="space-y-6 bg-[#0f172a] p-8 md:p-10 rounded-2xl border border-slate-800" onsubmit="event.preventDefault(); alert('Message sent successfully!');">
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <label class="block text-xs font-semibold text-slate-300 uppercase mb-2">Full Name</label>
+            <input type="text" required placeholder="Roshan Singh" class="w-full px-4 py-3 bg-slate-900 border border-slate-700 rounded-lg text-white focus:outline-none focus:border-emerald-400">
+          </div>
+          <div>
+            <label class="block text-xs font-semibold text-slate-300 uppercase mb-2">Email Address</label>
+            <input type="email" required placeholder="contact@domain.com" class="w-full px-4 py-3 bg-slate-900 border border-slate-700 rounded-lg text-white focus:outline-none focus:border-emerald-400">
+          </div>
+        </div>
+
+        <div>
+          <label class="block text-xs font-semibold text-slate-300 uppercase mb-2">Service Required</label>
+          <select class="w-full px-4 py-3 bg-slate-900 border border-slate-700 rounded-lg text-white focus:outline-none focus:border-emerald-400">
+            <option>Power BI / Tableau Dashboard Setup</option>
+            <option>Data Cleaning & Excel Automation</option>
+            <option>Sales & Predictive Modeling</option>
+            <option>Custom Database & ETL</option>
+          </select>
+        </div>
+
+        <div>
+          <label class="block text-xs font-semibold text-slate-300 uppercase mb-2">Project Details</label>
+          <textarea rows="4" placeholder="Briefly describe your dataset, volume, and main requirements..." class="w-full px-4 py-3 bg-slate-900 border border-slate-700 rounded-lg text-white focus:outline-none focus:border-emerald-400"></textarea>
+        </div>
+
+        <button type="submit" class="w-full py-3.5 bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-bold rounded-lg transition shadow-lg shadow-emerald-500/20">
+          Send Message
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-8 bg-[#070b13] border-t border-slate-900 text-center text-xs text-slate-400">
+    <p>© 2026 Pipal Data Analytics. All rights reserved. Data-driven growth simplified.</p>
+  </footer>
+
+</body>
+</html>
